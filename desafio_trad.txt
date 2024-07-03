@@ -1,0 +1,27 @@
+
+Você aplicará diversos conhecimentos e tecnologias para desenvolver um processo ETL tendo Python como ferramentas principais.
+
+O objetivo da atividade será coletar dados presentes em arquivos CSV (entrada de diretório) para realizar uma carga de fatos e dimensões no data warehouse que você criará no servidor PostgreSQL.
+
+Esses arquivos fazem parte do conjunto de dados Público do Comércio Eletrônico Brasileiro da Olist disponível no Kaggle. Abra cada um dos arquivos e acesse a página do kaggle para entender como os dados se relacionam entre si.
+
+para construir seu ambiente, você precisará instalar o postgreSQL em seu pc.
+
+Aqui você precisará desenvolver um modelo de dados dimensional que permita responder perguntas sobre vendas sob as perspectivas de: Customers/Clients, Products, Products Category, States, Purchase Date, Purchase time, Payment type used.
+
+Métricas importantes a serem consideradas em suas tabelas de fatos são a score, paid value, number of payment installments, product price e shipping cost.
+
+Uma vez definido o seu modelo de dados, contendo os fatos e dimensões necessários, você deve adicionar a sequência de comandos DDL ao arquivo etl.py para criar as tabelas no banco de dados pb_dw no servidor postgreSQL.
+Dica: você pode usar a biblioteca psycopg2 para interagir com o postgreSQL usando python.
+
+Com suas tabelas de data warehouse criadas corretamente, agora é hora de construir cargas ETL. Você precisará inserir os registros nas tabelas de fatos e dimensões usando os arquivos csv.
+
+Todas as etapas de carregamento devem ser adicionadas ao script etl.py, para que ao executá-lo seja criada toda a estrutura do seu data warehouse, bem como os dados inseridos nas respectivas tabelas.
+
+Você pode usar a biblioteca pandas ou polars para manipular os conjuntos de dados.
+Não se esqueça de usar as melhores práticas de python apresentadas ao longo dos cursos.
+
+Exponha a porta 5432 do contêiner postgreSQL a uma porta local no seu host. Desta forma você pode utilizar ferramentas como Dbeaver para visualizar a estrutura e os dados do seu banco de dados
+
+No seu repositório github, adicione um diretório chamado "projeto-1". Dentro deste diretório, adicione um arquivo com o nome "leia-me" com explicações sobre a solução do projeto. Além disso, inclua todos os arquivos usados ​​na solução, exceto os arquivos csv no diretório de entrada
+
