@@ -1,6 +1,5 @@
 
 Você aplicará diversos conhecimentos e tecnologias para desenvolver um processo ETL tendo Python como ferramentas principais.
-
 O objetivo da atividade será coletar dados presentes em arquivos CSV (entrada de diretório) para realizar uma carga de fatos e dimensões no data warehouse que você criará no servidor PostgreSQL.
 
 Esses arquivos fazem parte do conjunto de dados Público do Comércio Eletrônico Brasileiro da Olist disponível no Kaggle. Abra cada um dos arquivos e acesse a página do kaggle para entender como os dados se relacionam entre si.
@@ -23,5 +22,10 @@ Não se esqueça de usar as melhores práticas de python apresentadas ao longo d
 
 Exponha a porta 5432 do contêiner postgreSQL a uma porta local no seu host. Desta forma você pode utilizar ferramentas como Dbeaver para visualizar a estrutura e os dados do seu banco de dados
 
-No seu repositório github, adicione um diretório chamado "projeto-1". Dentro deste diretório, adicione um arquivo com o nome "leia-me" com explicações sobre a solução do projeto. Além disso, inclua todos os arquivos usados ​​na solução, exceto os arquivos csv no diretório de entrada
 
+# apresentar os dados em um dashboard no Power BI;
+# transformar o python em pyspark;
+# conteinerizar tudo;
+
+
+fonte: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?resource=download&select=olist_order_items_dataset.csv
