@@ -23,6 +23,7 @@ Não se esqueça de usar as melhores práticas de python apresentadas ao longo d
 Exponha a porta 5432 do contêiner postgreSQL a uma porta local no seu host. Desta forma você pode utilizar ferramentas como Dbeaver para visualizar a estrutura e os dados do seu banco de dados
 
 
+Novas metas:
 # apresentar os dados em um dashboard no Power BI;
 # transformar o python em pyspark;
 # conteinerizar tudo;
